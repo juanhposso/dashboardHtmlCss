@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navBarList {
+	@apply text-2xl my-2 text-white;
+}
+
+.navBarList a {
+	@apply py-5 pl-8 block rounded-l-full;
+}

@@ -4,6 +4,7 @@
 	"description": "This is a dashboard with HTML and Tailwind",
 	"main": "index.js",
 	"dependencies": {
+		"@tailwindcss/forms": "^0.3.2",
 		"autoprefixer": "^10.2.5",
 		"postcss": "^8.2.9",
 		"postcss-cli": "^8.3.1",
