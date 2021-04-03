@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="stylesheet/estilos.css" />
 		<title>DASHBOARD | Tailwind</title>
 	</head>
-	<body class="bg-gray-50">
+	<body class="bg-gray-200">
 		<div class="grid grid-cols-mainContainer grid-rows-mainContainer">
 			<header class="flex col-span-1 row-span-2">
 				<aside
@@ -25,29 +25,39 @@
 					<div class="container-menu">
 						<ul class="menu flex flex-col ml-10 mt-8">
 							<li class="navBarList">
-								<a href="#" class="bg-white text-pink-600"
+								<a href="index.html" class="bg-white text-pink-600" actived
 									><span class="fas fa-igloo"></span> Dashboard</a
 								>
 							</li>
 							<li class="navBarList">
-								<a href="#"><span class="fas fa-users"></span> Customers</a>
+								<a href="#" class="hover:bg-white hover:text-pink-600"
+									><span class="fas fa-users"></span> Customers</a
+								>
 							</li>
 							<li class="navBarList">
-								<a href="#"
+								<a href="#" class="hover:bg-white hover:text-pink-600"
 									><span class="fas fa-clipboard-list"></span> Projects</a
 								>
 							</li>
 							<li class="navBarList">
-								<a href="#"><span class="fas fa-shopping-bag"></span> Orders</a>
+								<a href="#" class="hover:bg-white hover:text-pink-600"
+									><span class="fas fa-shopping-bag"></span> Orders</a
+								>
 							</li>
 							<li class="navBarList">
-								<a href="#"><span class="fas fa-boxes"></span> Inventory</a>
+								<a href="#" class="hover:bg-white hover:text-pink-600"
+									><span class="fas fa-boxes"></span> Inventory</a
+								>
 							</li>
 							<li class="navBarList">
-								<a href="#"><span class="fas fa-user-edit"></span> Accounts</a>
+								<a href="#" class="hover:bg-white hover:text-pink-600"
+									><span class="fas fa-user-edit"></span> Accounts</a
+								>
 							</li>
 							<li class="navBarList">
-								<a href="#"><span class="fas fa-tasks"></span> Tasks</a>
+								<a href="#" class="hover:bg-white hover:text-pink-600"
+									><span class="fas fa-tasks"></span> Tasks</a
+								>
 							</li>
 						</ul>
 					</div>
@@ -80,13 +90,64 @@
 						</figure>
 						<div class="mr-5">
 							<h1 class="text-xl font-bold">Juan Hernandez</h1>
-							<span class="text-lg text-gray-500">Super Admin</span>
+							<span class="text-lg text-gray-300 font-semibold"
+								>Super Admin</span
+							>
 						</div>
 					</div>
 				</nav>
 				<!-- MAIN CONTENT -->
-				<div class="row-span-1 grid grid-cols-2 grid-rows-dashboardContent">
-					<div class="contenainer-dash col-span-2 row-span-1 bg-blue-600"></div>
+				<div
+					class="row-span-1 grid grid-cols-dashboardContent grid-rows-dashboardContent"
+				>
+					<div
+						class="contenainer-dash col-span-2 row-span-1 flex justify-evenly items-center"
+					>
+						<article
+							class="bg-white w-80 h-40 flex items-center justify-between rounded-sm shadow-sm"
+						>
+							<div class="ml-10">
+								<h1 class="text-5xl font-semibold mb-5">54</h1>
+								<span class="text-xl text-gray-400 font-semibold"
+									>Customers</span
+								>
+							</div>
+							<span class="fas fa-users text-5xl text-pink-600 mr-14"></span>
+						</article>
+						<article
+							class="bg-white w-80 h-40 flex items-center justify-between rounded-sm shadow-sm"
+						>
+							<div class="ml-10">
+								<h1 class="text-5xl font-semibold mb-5">79</h1>
+								<span class="text-xl text-gray-400 font-semibold"
+									>Projects</span
+								>
+							</div>
+							<span
+								class="fas fa-clipboard-list text-5xl text-pink-600 mr-14"
+							></span>
+						</article>
+						<article
+							class="bg-white w-80 h-40 flex items-center justify-between rounded-sm shadow-sm"
+						>
+							<div class="ml-10">
+								<h1 class="text-5xl font-semibold mb-5">124</h1>
+								<span class="text-xl text-gray-400 font-semibold">Orders</span>
+							</div>
+							<span
+								class="fas fa-shopping-bag text-5xl text-pink-600 mr-14"
+							></span>
+						</article>
+						<article
+							class="w-80 h-40 flex items-center justify-between rounded-sm shadow-sm bg-pink-600 text-white"
+						>
+							<div class="ml-10">
+								<h1 class="text-5xl font-semibold mb-5">$6k</h1>
+								<span class="text-xl font-semibold">Income</span>
+							</div>
+							<span class="fas fa-money-check-alt text-5xl mr-14"></span>
+						</article>
+					</div>
 					<div class="recent-project col-span-1 row-span-1 bg-red-200"></div>
 					<div class="users col-span-1 row-span-1 bg-yellow-500"></div>
 				</div>

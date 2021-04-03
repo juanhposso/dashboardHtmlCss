@@ -11,16 +11,22 @@ module.exports = {
 				asideContainerMainContent: '120px 1fr',
 
 				// dashboard content rows
-				dashboardContent: '400px 1fr',
+				dashboardContent: '300px 1fr',
 			},
 			gridTemplateColumns: {
 				// Principal container layout
 				mainContainer: '389px 1fr',
+
+				// dashboard content columns
+				dashboardContent: '1fr 550px',
 			},
 		},
 	},
 	variants: {
-		extend: {},
+		extend: {
+			backgroundColor: ['visited'],
+			textColor: ['visited'],
+		},
 	},
 	plugins: [require('@tailwindcss/forms')],
 };
