@@ -27864,6 +27864,10 @@ select {
   grid-template-columns: none;
 }
 
+.grid-cols-mainContainer {
+  grid-template-columns: 389px 1fr;
+}
+
 .auto-cols-auto {
   grid-auto-columns: auto;
 }
@@ -28078,8 +28082,16 @@ select {
   grid-template-rows: none;
 }
 
-.grid-rows-asideContainer {
+.grid-rows-mainContainer {
   grid-template-rows: 120px 1fr;
+}
+
+.grid-rows-asideContainerMainContent {
+  grid-template-rows: 120px 1fr;
+}
+
+.grid-rows-dashboardContent {
+  grid-template-rows: 400px 1fr;
 }
 
 .auto-rows-auto {
@@ -58498,6 +58510,10 @@ select {
     grid-template-columns: none;
   }
 
+  .sm\:grid-cols-mainContainer {
+    grid-template-columns: 389px 1fr;
+  }
+
   .sm\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -58712,8 +58728,16 @@ select {
     grid-template-rows: none;
   }
 
-  .sm\:grid-rows-asideContainer {
+  .sm\:grid-rows-mainContainer {
     grid-template-rows: 120px 1fr;
+  }
+
+  .sm\:grid-rows-asideContainerMainContent {
+    grid-template-rows: 120px 1fr;
+  }
+
+  .sm\:grid-rows-dashboardContent {
+    grid-template-rows: 400px 1fr;
   }
 
   .sm\:auto-rows-auto {
@@ -89049,6 +89073,10 @@ select {
     grid-template-columns: none;
   }
 
+  .md\:grid-cols-mainContainer {
+    grid-template-columns: 389px 1fr;
+  }
+
   .md\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -89263,8 +89291,16 @@ select {
     grid-template-rows: none;
   }
 
-  .md\:grid-rows-asideContainer {
+  .md\:grid-rows-mainContainer {
     grid-template-rows: 120px 1fr;
+  }
+
+  .md\:grid-rows-asideContainerMainContent {
+    grid-template-rows: 120px 1fr;
+  }
+
+  .md\:grid-rows-dashboardContent {
+    grid-template-rows: 400px 1fr;
   }
 
   .md\:auto-rows-auto {
@@ -119600,6 +119636,10 @@ select {
     grid-template-columns: none;
   }
 
+  .lg\:grid-cols-mainContainer {
+    grid-template-columns: 389px 1fr;
+  }
+
   .lg\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -119814,8 +119854,16 @@ select {
     grid-template-rows: none;
   }
 
-  .lg\:grid-rows-asideContainer {
+  .lg\:grid-rows-mainContainer {
     grid-template-rows: 120px 1fr;
+  }
+
+  .lg\:grid-rows-asideContainerMainContent {
+    grid-template-rows: 120px 1fr;
+  }
+
+  .lg\:grid-rows-dashboardContent {
+    grid-template-rows: 400px 1fr;
   }
 
   .lg\:auto-rows-auto {
@@ -150151,6 +150199,10 @@ select {
     grid-template-columns: none;
   }
 
+  .xl\:grid-cols-mainContainer {
+    grid-template-columns: 389px 1fr;
+  }
+
   .xl\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -150365,8 +150417,16 @@ select {
     grid-template-rows: none;
   }
 
-  .xl\:grid-rows-asideContainer {
+  .xl\:grid-rows-mainContainer {
     grid-template-rows: 120px 1fr;
+  }
+
+  .xl\:grid-rows-asideContainerMainContent {
+    grid-template-rows: 120px 1fr;
+  }
+
+  .xl\:grid-rows-dashboardContent {
+    grid-template-rows: 400px 1fr;
   }
 
   .xl\:auto-rows-auto {
@@ -180702,6 +180762,10 @@ select {
     grid-template-columns: none;
   }
 
+  .\32xl\:grid-cols-mainContainer {
+    grid-template-columns: 389px 1fr;
+  }
+
   .\32xl\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -180916,8 +180980,16 @@ select {
     grid-template-rows: none;
   }
 
-  .\32xl\:grid-rows-asideContainer {
+  .\32xl\:grid-rows-mainContainer {
     grid-template-rows: 120px 1fr;
+  }
+
+  .\32xl\:grid-rows-asideContainerMainContent {
+    grid-template-rows: 120px 1fr;
+  }
+
+  .\32xl\:grid-rows-dashboardContent {
+    grid-template-rows: 400px 1fr;
   }
 
   .\32xl\:auto-rows-auto {
