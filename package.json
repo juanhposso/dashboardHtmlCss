@@ -1,0 +1,28 @@
+{
+	"name": "dashboardHtmlCss",
+	"version": "1.0.0",
+	"description": "This is a dashboard with HTML and Tailwind",
+	"main": "index.js",
+	"dependencies": {
+		"autoprefixer": "^10.2.5",
+		"postcss": "^8.2.9",
+		"postcss-cli": "^8.3.1",
+		"tailwindcss": "^2.0.4"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"build": "postcss ./public/stylesheet/styles.css -o ./public/stylesheet/estilos.css",
+		"dev": "postcss css/tailwind.css -o public/css/styles.css --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/juanhposso/dashboardHtmlCss.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/juanhposso/dashboardHtmlCss/issues"
+	},
+	"homepage": "https://github.com/juanhposso/dashboardHtmlCss#readme"
+}
