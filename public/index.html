@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="stylesheet/estilos.css" />
 		<title>DASHBOARD | Tailwind</title>
 	</head>
-	<body>
+	<body class="bg-gray-50">
 		<header class="flex">
 			<nav
 				class="container-left-bar bg-pink-600 h-screen w-96 flex-grow-0 grid grid-rows-asideContainer"
@@ -51,13 +51,19 @@
 					</ul>
 				</div>
 			</nav>
-			<aside class="flex-grow h-28 shadow-md flex items-center justify-between">
+			<aside
+				class="flex-grow h-28 shadow-md flex items-center justify-between bg-white"
+			>
 				<div class="flex text-2xl ml-10">
 					<span class="fas fa-bars mt-1"></span>
 					<h1 class="ml-10 font-bold">DASHBOARD</h1>
 				</div>
-				<div class="search-bar">
-					<!-- form here -->
+				<div
+					type="search"
+					class="search-bar pl-5 rounded-full border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+				>
+					<span class="fas fa-search mr-3"></span>
+					<input class="border-none py-3" placeholder="Search Here" />
 				</div>
 				<div class="profile flex items-center">
 					<figure>
