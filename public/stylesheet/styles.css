@@ -9,3 +9,7 @@
 .navBarList a {
 	@apply py-5 pl-8 block rounded-l-full;
 }
+
+.point {
+	@apply inline-block w-2 h-2 rounded-full mr-2;
+}

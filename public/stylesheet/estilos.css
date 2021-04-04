@@ -32213,6 +32213,14 @@ select {
   padding-left: 2rem;
 }
 
+.point {
+  border-radius: 9999px;
+  display: inline-block;
+  height: 0.5rem;
+  margin-right: 0.5rem;
+  width: 0.5rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
